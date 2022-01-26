@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div class="style-container">
+      <div className="style-container">
         <div>
           <h1>
             Heading - H1
@@ -16,7 +15,7 @@ function App() {
           </h2>
         </div>
         <div>
-          <h3 class="logo">
+          <h3 className="logo">
             LOGO
           </h3>
         </div>
