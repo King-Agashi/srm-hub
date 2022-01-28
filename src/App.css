@@ -1,7 +1,5 @@
-
-
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -13,6 +11,16 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+* {
+  background-color: hsla(0, 0%, 7.06%, 1);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: hsla(0, 0%, 100%, 0.87);
+  padding-left: 0.5%;
 }
 
 .App-header {
@@ -37,4 +45,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #121212;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+div {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #6c63ff;
+}
+
+.logo {
+  font-family: Sacramento;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 31.2px;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 0px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.para-small {
+  font-size: 14px;
+  line-height: 21px;
 }
