@@ -9,7 +9,6 @@
   font-size: 20px;
   line-height: 30px;
   color: hsla(0, 0%, 100%, 0.87);
-  padding-left: 0.5%;
   white-space: nowrap;
 }
 
@@ -91,6 +90,7 @@ h2 {
   font-size: 40px;
   line-height: 52px;
   font-weight: 400;
+  padding-left: 30px;
 }
 
 h4 {
