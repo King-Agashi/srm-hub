@@ -24,20 +24,20 @@ function App() {
             <img id="Bldg" alt="Landing Page Background" class="img-fluid" src="/Assets/quite-town.png"/>
           </div>
           <div class="col-12 col-md-6">
-            <div class="font-weight-light">
+            <div class="col-12 font-weight-light text-left">
               <h1>Welcome To</h1>
             </div>
-            <div>
-              <h2 id="TypeWriter"> SRM HUB </h2>
+            <div class="col-12 text-left">
+              <h2> SRM HUB </h2>
             </div>
-            <div class="font-weight-light casual">
+            <div class="col-12 font-weight-light casual text-left">
               <p>Find the best notes and restaurant reviews</p>
             </div>
-            <div class="Btns row">
-              <div class="col-12 col-md-6 text-lg-right text-center">
+            <div class="col-12 Btns d-flex flex-row">
+              <div class="col-12 col-md-6 text-lg-right text-center p-2">
                 <a href="/restaurants"><button class="btn btn-outline-light btn-lg mt-3 mb-2"> Restaurants </button> </a>
               </div>
-              <div class="col-12 col-md-6 text-lg-left text-center">
+              <div class="col-12 col-md-6 text-lg-left text-center p-2">
                 <a href="/notes"><button class="btn btn-outline-light btn-lg mt-3 mb-2"> Notes </button> </a>
               </div>
             </div>
