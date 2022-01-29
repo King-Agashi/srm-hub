@@ -51,13 +51,14 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-  padding-right: 3em;
+  padding-right: 1em;
 }
 
 li {
   display: list-item;
   text-align: -webkit-match-parent;
   padding-right: 1em;
+  padding-bottom: 0.8em;
 }
 
 div {
@@ -113,4 +114,10 @@ p {
 .typography {
   display: block;
   text-align: left;
+}
+
+button {
+  margin-right: 1em;
+  background: #7c7c7c;
+  border-radius: 8px;
 }

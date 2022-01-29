@@ -34,10 +34,10 @@ function App() {
               <p>Find the best notes and restaurant reviews</p>
             </div>
             <div class="col-12 Btns d-flex flex-row">
-              <div class="col-12 col-md-6 text-lg-right text-center p-2">
+              <div class="text-lg-right text-center">
                 <a href="/restaurants"><button class="btn btn-outline-light btn-lg mt-3 mb-2"> Restaurants </button> </a>
               </div>
-              <div class="col-12 col-md-6 text-lg-left text-center p-2">
+              <div class="text-lg-left text-center">
                 <a href="/notes"><button class="btn btn-outline-light btn-lg mt-3 mb-2"> Notes </button> </a>
               </div>
             </div>
