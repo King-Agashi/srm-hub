@@ -1,15 +1,6 @@
+/* Initialized part */
 .App {
   text-align: left;
-}
-
-* {
-  background-color: hsla(0, 0%, 7.06%, 1);
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: hsla(0, 0%, 100%, 0.87);
-  white-space: nowrap;
 }
 
 .App-header {
@@ -36,37 +27,20 @@
   }
 }
 
-nav {
-  position: relative;
-  display: flex;
-  align-items: center;
-  background: #121212;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  padding-right: 1em;
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-  padding-right: 1em;
-  padding-bottom: 0.8em;
+/* My css */
+/* Setting Defaults */
+* {
+  background-color: hsla(0, 0%, 7.06%, 1);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: hsla(0, 0%, 100%, 0.87);
+  white-space: nowrap;
 }
 
 div {
   display: block;
-}
-
-a {
-  text-decoration: none;
 }
 
 h1 {
@@ -86,14 +60,6 @@ h2 {
   color: #6c63ff;
 }
 
-.logo {
-  font-family: Sacramento;
-  font-size: 40px;
-  line-height: 52px;
-  font-weight: 400;
-  padding-left: 30px;
-}
-
 h4 {
   font-size: 24px;
   line-height: 31.2px;
@@ -111,13 +77,63 @@ p {
   line-height: 21px;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Navbar styling */
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #121212;
+}
+
+nav ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: auto !important;
+  padding-inline-start: 40px;
+  padding-right: 1em;
+}
+
+nav ul li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  padding-right: 1em;
+  padding-bottom: 0.8em;
+}
+
+nav ul li a {
+  color: #ffffff !important;
+}
+nav ul li a:hover {
+  font-weight: bold !important;
+}
+nav ul li a:active {
+  font-weight: bold !important;
+}
+
+.logo {
+  font-family: Sacramento;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
 .typography {
   display: block;
   text-align: left;
 }
 
 button {
-  margin-right: 1em;
-  background: #7c7c7c;
-  border-radius: 8px;
+  margin-right: 1em !important;
+  background: #7c7c7c !important;
+  border-radius: 8px !important;
 }

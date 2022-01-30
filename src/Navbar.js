@@ -8,7 +8,7 @@ const Nav = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul className="navbar-nav ml-auto">
+        <ul className="navbar-nav">
           <li className="nav-item"><a href="/" className="nav-link"> Home</a></li>
           <li className="nav-item"><a href="/notes" className="nav-link"> Notes </a></li>
           <li className="nav-item"><a href="/restaurants" className="nav-link"> Restaurants </a></li>

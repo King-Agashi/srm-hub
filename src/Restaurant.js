@@ -5,8 +5,8 @@ export default function Restaurant(){
   return(
     <div className="container-fluid">
       <div className="row pt-2">
-        <div className="col-12">
-          <h2 className="text-light text-lg-left text-center pt-2">Notes</h2>
+        <div className="col-12 ml-5 pl-5">
+          <h1 className="text-light text-lg-left pt-2 ml-5">Restaurants</h1>
         </div>
       </div>
       <div className="row pt-4">
