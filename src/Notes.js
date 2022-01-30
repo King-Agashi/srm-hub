@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 export default class Notes extends Component{
   jQuerycode=() => {
-    $(".btn-outline-Notes").on("click",function(){
+    $(".btn-outline-searchbtn").on("click",function(){
       $(".resultN").css("display","block");
       $(".BigN").css("display","none");
     });
@@ -17,18 +17,20 @@ export default class Notes extends Component{
     return(
       <div className="container-fluid">
         <div className="row pt-2">
-          <div className="col-12 ml-5 pl-5">
-            <h1 className="text-light text-lg-left pt-2 ml-5">Notes</h1>
+          <div className="col-12 ml-5">
+            <h1 className="text-light text-lg-left">NOTES</h1>
           </div>
         </div>
         <div className="row pt-4">
           <div className="col-12 col-md-5 text-lg-right text-center">
             <div className="search_field">
+              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path></svg>
               <input type="text" className="input" placeholder="Search Notes" />
             </div>
           </div>
           <div className="col-12 col-md-3 text-center">
             <select name="Options" id="opt">
+              <option className="placeholder" value="" disabled selected>Semester</option>
               <option value="1">Semester 1</option>
               <option value="2">Semester 2</option>
               <option value="3">Semester 3</option>
@@ -40,7 +42,7 @@ export default class Notes extends Component{
             </select>
           </div>
           <div className="col-12 col-md-4 text-lg-left text-center">
-            <button className="btn btn-outline-Notes btn-lg mb-2" > Search </button>
+            <button className="btn btn-outline-searchbtn btn-lg mb-2" > Search </button>
           </div>
         </div>
         <div className="BigN row pt-2">

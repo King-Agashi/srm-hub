@@ -22,10 +22,10 @@ export default function Home(){
           </div>
           <div class="col-12 d-flex flex-row">
             <div class="text-lg-right text-center">
-              <a href="/restaurants"><button class="btn btn-outline-light btn-lg mt-3 mb-2"> Restaurants </button> </a>
+              <a href="/restaurants"><button class="btn btn-outline-* bodybtn btn-lg mt-3 mb-2"> Restaurants </button> </a>
             </div>
             <div class="text-lg-left text-center">
-              <a href="/notes"><button class="btn btn-outline-light btn-lg mt-3 mb-2"> Notes </button> </a>
+              <a href="/notes"><button class="btn btn-outline-* bodybtn btn-lg mt-3 mb-2"> Notes </button> </a>
             </div>
           </div>  
         </div>

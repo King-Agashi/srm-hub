@@ -115,7 +115,7 @@ nav ul li a {
 nav ul li a:hover {
   font-weight: bold !important;
 }
-nav ul li a:active {
+nav ul li a:focus {
   font-weight: bold !important;
 }
 
@@ -127,13 +127,83 @@ nav ul li a:active {
   padding-left: 30px;
 }
 
-.typography {
-  display: block;
-  text-align: left;
+/* Body Styling */
+
+.bodybtn {
+  margin-right: 1em;
+  background: #7c7c7c;
+  border-radius: 8px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 31.2px;
+  font-weight: 600;
+  color: #000000;
 }
 
-button {
-  margin-right: 1em !important;
-  background: #7c7c7c !important;
-  border-radius: 8px !important;
+.bodybtn:hover {
+  background: #6c63ff;
+  color: #000000 !important;
+}
+
+/* Restaurant & Notes Styling */
+
+.filter-bar {
+  margin-left: 15%;
+}
+
+.input {
+  padding-left: 60px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 68px;
+  background-color: #404040;
+  border-radius: 5px;
+  border-color: black;
+  margin-top: 1vh;
+}
+
+.search_field .fa-magnifying-glass {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-color: #404040;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#opt {
+  background: #404040;
+  border: 2px !important;
+  border-radius: 5px;
+  width: 100%;
+  border-color: black !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 68px;
+  margin-top: 11px;
+}
+
+.btn-outline-searchbtn {
+  background-color: #6c63ff;
+  color: black;
+  border-color: black;
+  margin-top: 10px;
+  font-size: 18px;
+  width: 20%;
+  height: 56%;
+  border-radius: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+.card {
+  background-color: #484444 !important;
+  color: white;
+  border-radius: 1.5vh;
+}
+
+.resultN,
+.resultR {
+  display: none;
 }
