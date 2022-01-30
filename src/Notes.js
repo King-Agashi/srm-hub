@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 
-export default function Home(){
+export default function Notes(){
   return(
     <div className="container-fluid">
       <div className="row pt-2">
@@ -16,7 +16,7 @@ export default function Home(){
           </div>
         </div>
         <div className="col-12 col-md-3 text-center">
-          <select name="Distance" id="dist">
+          <select name="Options" id="opt">
             <option value="1">Semester 1</option>
             <option value="2">Semester 2</option>
             <option value="3">Semester 3</option>
